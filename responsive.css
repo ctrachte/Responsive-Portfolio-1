@@ -8,7 +8,7 @@
   }
 
   p {
-    color:#7d97ad;
+    color: #7d97ad;
   }
 
   #projects {
@@ -56,7 +56,7 @@
   .project_box {
     margin-left: auto;
     margin-right: auto;
-    width:100%;
+    width: 100%;
   }
 
 }
@@ -64,15 +64,15 @@
 @media screen and (max-width:480px) {
 
   main, header, .content {
-    width:90%;
-    margin:1.0em;
+    width: 90%;
+    margin: 1.0em;
   }
 
   #project_box {
     margin-top: 1.0em;
     margin-left: auto;
     margin-right: auto;
-    width:100%;
+    width: 100%;
   }
 
 }

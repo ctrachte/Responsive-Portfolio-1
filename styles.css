@@ -17,31 +17,31 @@ header {
   display: flex;
   flex-wrap: wrap;
   border-bottom: 3px solid #7d97ad;
-  width:100%;
+  width: 100%;
 }
 
 .header_logo {
   margin: auto;
-  width:40%;
+  width: 40%;
   height: 100%;
 }
 
 .header_logo > img {
-  width:72px;
+  width: 72px;
 }
 
 .header_title {
   margin-right: auto;
   margin-left: auto;
   height: 100%;
-  width:60%;
+  width: 60%;
 }
 
 #name, #portfolio_desc {
   text-align: right;
   margin-top: auto;
   margin-bottom: auto;
-  padding:5px;
+  padding: 5px;
 }
 
 
@@ -62,18 +62,18 @@ header {
 #intro {
   display: flex;
   flex-wrap: wrap;
-  color:#2d3c49;
+  color: #2d3c49;
   border-bottom: 2px solid #7d97ad;
 }
 
 /* Featured projects styling*/
 
 .project_image {
-  width:90%;
+  width: 90%;
 }
 
 h3 {
-  width:90%;
+  width: 90%;
   text-align: center;
 }
 
