@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-  font-family: Roboto;
+  font-family: Roboto, helvetica, sans-serif;
   font-size: 16px;
   color: #424242;
 }
@@ -26,7 +26,7 @@ header {
   height: 100%;
 }
 
-.header_logo>img {
+.header_logo > img {
   width:72px;
 }
 
