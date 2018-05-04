@@ -6,4 +6,6 @@ While it may look simple this template is well optimized for all screen sizes.
 - Add in JS driven animations on images/text
 - Add sticky header
 - Add footer
- - Add social icons to footer
+- Add social icons to footer
+
+[Example project images are royalty free, aqcuired from Pexels.com](https://www.pexels.com)
