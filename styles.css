@@ -16,7 +16,7 @@ body {
 header {
   display: flex;
   flex-wrap: wrap;
-  border-bottom: 1px solid #7d97ad;
+  border-bottom: 3px solid #7d97ad;
   width:100%;
 }
 
@@ -44,16 +44,42 @@ header {
   padding:5px;
 }
 
+
+/* Hero Styling */
+
+.hero {
+  width: 100%;
+}
+
+.hero_image {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Intro styling */
+
+#intro {
+  display: flex;
+  flex-wrap: wrap;
+  color:#2d3c49;
+  border-bottom: 2px solid #7d97ad;
+}
+
 /* Featured projects styling*/
 
 .project_image {
   width:90%;
-  padding:1.0em;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
+h3 {
+  width:90%;
+  text-align: center;
 }
 
-/* Hero Styling */
+.project_image:hover {
+  -webkit-box-shadow: 0px 0px 18px 6px rgba(45,60,73,0.63);
+  box-shadow: 0px 0px 18px 6px rgba(45,60,73,0.63);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}

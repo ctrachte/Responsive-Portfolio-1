@@ -4,10 +4,14 @@
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.25em;
+    font-size: 1.5em;
   }
 
-  .projects {
+  p {
+    color:#7d97ad;
+  }
+
+  #projects {
     display: flex;
   }
 
@@ -16,7 +20,6 @@
   }
 
 }
-
 
 @media screen and (min-width: 768px) and (max-width:960px) {
 
@@ -27,7 +30,7 @@
     font-size: 1.25em;
   }
 
-  .projects {
+  #projects {
     display: flex;
   }
 
@@ -38,12 +41,15 @@
 }
 
 @media screen and (min-width: 481px) and (max-width:767px) {
+
   main, header, .content {
     width: 460px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.0em;
   }
-  .projects {
+
+  #projects {
     margin: 1.5em;
   }
 
@@ -62,7 +68,7 @@
     margin:1.0em;
   }
 
-  .project_box {
+  #project_box {
     margin-top: 1.0em;
     margin-left: auto;
     margin-right: auto;
